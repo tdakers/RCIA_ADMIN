@@ -402,7 +402,7 @@ with baptism_cert_col:
         )
     
     df_outstanding_baptism_certs = df[
-        (df['baptism_status'].str.upper() == 'NO') & 
+        (df['baptism_status'].str.upper() == 'YES') & 
         (df['received_baptism_cert'] == False)
         ][['id', 'received_baptism_cert', 'first_name', 'last_name']]
     

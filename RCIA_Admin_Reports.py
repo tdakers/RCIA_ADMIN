@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-url = "https://dptslvjsbhmxposqarwj.supabase.co"
+url = "https://oiwaiptfozfuodsbrlrq.supabase.co"
 key = st.secrets["api"]["key"]
 
 supabase: Client = create_client(url, key)
